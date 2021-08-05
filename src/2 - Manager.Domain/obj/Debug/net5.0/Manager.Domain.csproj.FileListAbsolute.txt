@@ -1,0 +1,24 @@
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\obj\Debug\net5.0\Manager.Domain.csprojAssemblyReference.cache
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\obj\Debug\net5.0\Manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\obj\Debug\net5.0\Manager.Domain.AssemblyInfoInputs.cache
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\obj\Debug\net5.0\Manager.Domain.AssemblyInfo.cs
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\obj\Debug\net5.0\Manager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\bin\Debug\net5.0\Manager.Domain.deps.json
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\bin\Debug\net5.0\Manager.Domain.dll
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\bin\Debug\net5.0\ref\Manager.Domain.dll
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\bin\Debug\net5.0\Manager.Domain.pdb
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\obj\Debug\net5.0\Manager.Domain.dll
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\obj\Debug\net5.0\ref\Manager.Domain.dll
+C:\Users\Ronni\estudo\c#\Manager\src\manager.domain\obj\Debug\net5.0\Manager.Domain.pdb
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\bin\Debug\net5.0\Manager.Domain.deps.json
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\bin\Debug\net5.0\Manager.Domain.dll
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\bin\Debug\net5.0\ref\Manager.Domain.dll
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\bin\Debug\net5.0\Manager.Domain.pdb
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\obj\Debug\net5.0\Manager.Domain.csprojAssemblyReference.cache
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\obj\Debug\net5.0\Manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\obj\Debug\net5.0\Manager.Domain.AssemblyInfoInputs.cache
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\obj\Debug\net5.0\Manager.Domain.AssemblyInfo.cs
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\obj\Debug\net5.0\Manager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\obj\Debug\net5.0\Manager.Domain.dll
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\obj\Debug\net5.0\ref\Manager.Domain.dll
+C:\Users\Ronni\estudo\c#\manager\src\2 - Manager.Domain\obj\Debug\net5.0\Manager.Domain.pdb
