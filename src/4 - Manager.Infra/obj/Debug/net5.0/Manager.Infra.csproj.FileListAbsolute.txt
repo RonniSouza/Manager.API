@@ -4,8 +4,10 @@ C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.
 C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Infra.dll
 C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\bin\Debug\net5.0\ref\Manager.Infra.dll
 C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Infra.pdb
+C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Core.dll
 C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Domain.dll
 C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Domain.pdb
+C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\bin\Debug\net5.0\Manager.Core.pdb
 C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.csprojAssemblyReference.cache
 C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ronni\estudo\c#\manager\src\4 - Manager.Infra\obj\Debug\net5.0\Manager.Infra.AssemblyInfoInputs.cache

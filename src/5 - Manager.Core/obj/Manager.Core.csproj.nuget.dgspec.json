@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ronni\\estudo\\c#\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {}
+    "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\5 - Manager.Core\\Manager.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ronni\\estudo\\c#\\Manager\\src\\Manager.Core\\Manager.Core.csproj": {
+    "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\5 - Manager.Core\\Manager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ronni\\estudo\\c#\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\5 - Manager.Core\\Manager.Core.csproj",
         "projectName": "Manager.Core",
-        "projectPath": "C:\\Users\\Ronni\\estudo\\c#\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+        "projectPath": "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\5 - Manager.Core\\Manager.Core.csproj",
         "packagesPath": "C:\\Users\\Ronni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ronni\\estudo\\c#\\Manager\\src\\Manager.Core\\obj\\",
+        "outputPath": "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\5 - Manager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -592,11 +592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ronni\\estudo\\c#\\Manager\\src\\Manager.API\\Manager.API.csproj",
+      "projectUniqueName": "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\1 - Manager.API\\Manager.API.csproj",
       "projectName": "Manager.API",
-      "projectPath": "C:\\Users\\Ronni\\estudo\\c#\\Manager\\src\\Manager.API\\Manager.API.csproj",
+      "projectPath": "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\1 - Manager.API\\Manager.API.csproj",
       "packagesPath": "C:\\Users\\Ronni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ronni\\estudo\\c#\\Manager\\src\\Manager.API\\obj\\",
+      "outputPath": "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\1 - Manager.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
