@@ -27,7 +27,7 @@ namespace Manager.Domain.Validators
                 .MaximumLength(80)
                 .WithMessage("O nome deve ter no máximo 80 caracteres");
 
-            /*RuleFor(x => x.Password)
+            RuleFor(x => x.Password)
                 .NotNull()
                 .WithMessage("A senha não pode ser nulo. ")
 
@@ -38,7 +38,7 @@ namespace Manager.Domain.Validators
                 .WithMessage("A senha deve ter no mínimo 6 caracteres")
 
                 .MaximumLength(80)
-                .WithMessage("A senha deve ter no mãximo 30 caracteres");*/
+                .WithMessage("A senha deve ter no mãximo 30 caracteres");
 
             RuleFor(x => x.Email)
                 .NotNull()
