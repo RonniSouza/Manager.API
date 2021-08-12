@@ -2,10 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using Manager.API.ViewModels;
+using Manager.Domain.Entities;
+using Manager.Infra.Context;
+using Manager.Infra.Interfaces;
+using Manager.Infra.Repositories;
+using Manager.Services.DTO;
+using Manager.Services.Intefaces;
+using Manager.Services.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,8 +36,26 @@ namespace Manager.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
+
+            #region AutoMapper
+
+            var autoMapperConfig = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<User, UserDTO>().ReverseMap();
+                cfg.CreateMap<CreateUserViewModel, UserDTO>().ReverseMap();
+            });
+
+            services.AddSingleton(autoMapperConfig.CreateMapper());
+
+            #endregion
+
+            services.AddSingleton(d => Configuration);
+            services.AddDbContext<ManagerContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:USERMANAGERAPI"]), ServiceLifetime.Transient);
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            //services.AddScoped<ITokenGenerator, TokenGenerator>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Manager.API", Version = "v1" });

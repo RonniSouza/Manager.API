@@ -9,7 +9,7 @@ using Manager.Services.Intefaces;
 
 namespace Manager.Services.Services
 {
-    public class UserService : IUserServices
+    public class UserService : IUserService
     {
         private readonly IMapper _mapper;
         private readonly IUserRepository _userRepository;

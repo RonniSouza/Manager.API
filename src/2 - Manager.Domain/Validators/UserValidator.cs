@@ -21,24 +21,24 @@ namespace Manager.Domain.Validators
                 .NotNull()
                 .WithMessage("O nome não pode ser nulo.")
 
-                .MinimumLength(6)
+                .MinimumLength(3)
                 .WithMessage("O nome deve ter no mínimo 3 caracteres")
 
-                .MinimumLength(6)
-                .WithMessage("O nome deve ter no mínimo 80 caracteres");
+                .MaximumLength(80)
+                .WithMessage("O nome deve ter no máximo 80 caracteres");
 
-            RuleFor(x => x.Password)
+            /*RuleFor(x => x.Password)
                 .NotNull()
                 .WithMessage("A senha não pode ser nulo. ")
 
                 .NotNull()
-                .WithMessage("A senha não pode ser vazio.")
+                .WithMessage("A senha não pode ser vazia.")
 
                 .MinimumLength(6)
                 .WithMessage("A senha deve ter no mínimo 6 caracteres")
 
-                .MaximumLength(30)
-                .WithMessage("A senha deve ter no mãximo 30 caracteres");
+                .MaximumLength(80)
+                .WithMessage("A senha deve ter no mãximo 30 caracteres");*/
 
             RuleFor(x => x.Email)
                 .NotNull()

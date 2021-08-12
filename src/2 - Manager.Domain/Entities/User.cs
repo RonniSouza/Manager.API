@@ -28,7 +28,7 @@ namespace Manager.Domain.Entities
             Validate();
         }
 
-        public void ChangePassaword(string passoword)
+        public void ChangePassaword(string password)
         {
             Password = Password;
             Validate();

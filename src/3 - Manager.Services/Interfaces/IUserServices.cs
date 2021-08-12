@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Manager.Services.DTO;
 
 namespace Manager.Services.Intefaces{
-    public interface IUserServices{
+    public interface IUserService{
         Task<UserDTO> Create(UserDTO userDTO);
         Task<UserDTO> Update(UserDTO userDTO);
         Task Remove(long id);
