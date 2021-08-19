@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aN52enwOetEZDNOYn1T8YOHyGy5SDTMNTomQukFCu34RvhFi1fQAqVIlvupM+Iun5YOxu258vZmdYap6/ALWig==",
+  "dgSpecHash": "k9mdfoXJeNClBQ9ilm/rP7zo4nUiBbESTnQ4u1h4MswojByeuNBt28iYeV+I+8HtnNpCC/RjdHdKI2Z9pOQBYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\1 - Manager.API\\Manager.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ronni\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
-    "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
-    "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
+    "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.9\\microsoft.aspnetcore.authentication.jwtbearer.5.0.9.nupkg.sha512",
+    "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.9\\microsoft.aspnetcore.authentication.openidconnect.5.0.9.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
