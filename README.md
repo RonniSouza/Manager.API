@@ -1,5 +1,5 @@
 # Manager.API
 
-## Desenvolvimento de um gerenciador de usuários.
+## Desenvolvimento uma api rest de um gerenciador de usuários.
 
 #### Em desenvolvimento
