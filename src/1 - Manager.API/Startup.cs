@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using Manager.API.Token;
 using Manager.API.ViewModels;
 using Manager.Domain.Entities;
 using Manager.Infra.Context;
@@ -45,16 +46,17 @@ namespace Manager.API
 
             var secretkey = Configuration["Jwt:Key"];
 
-            services.AddAuthentication( x => 
-            {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
+            services.AddAuthentication(x =>
+           {
+               x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+               x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+           })
             .AddJwtBearer(x =>
             {
                 x.RequireHttpsMetadata = false;
                 x.SaveToken = true;
-                x.TokenValidationParameters = new TokenValidationParameters{
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretkey)),
                     ValidateIssuer = false,
@@ -80,12 +82,43 @@ namespace Manager.API
             services.AddDbContext<ManagerContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:USERMANAGERAPI"]), ServiceLifetime.Transient);
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
-            //services.AddScoped<ITokenGenerator, TokenGenerator>();
+            services.AddScoped<ITokenGenerator, TokenGenerator>();
 
+            #region Swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Manager.API", Version = "v1" });
+                c.SwaggerDoc("v1",
+                new OpenApiInfo
+                {
+                    Title = "Manager.API.DDD",
+                    Version = "v1",
+                    Description = "API contruída no curso do professor Lucas eschechola."
+                });
+
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Por favor ultilize Bearer <TOKEN>",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement{
+               {
+                new OpenApiSecurityScheme
+                {
+                    Reference = new OpenApiReference
+                    {
+                        Type = ReferenceType.SecurityScheme,
+                        Id = "Bearer"
+                    }
+                },
+                new string[] { }
+                }
+                });
             });
+
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
