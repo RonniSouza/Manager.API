@@ -21,7 +21,7 @@
 * AutoMapper
 
 * JWT
-> Atentica requisições da API.
+> Autentica requisições da API.
 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54107302/130784905-a743b816-3398-4dcc-86c7-22e1067e8e2c.gif)
