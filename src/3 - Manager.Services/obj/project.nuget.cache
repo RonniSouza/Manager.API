@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+kannUxfomIwOUZ0Z7/B9M4nyTC9a5XSnq62/cmjPBCctBlf7C5fwy/7+x2Px3eFzPt020Uslqhv7V5flQZXMA==",
+  "dgSpecHash": "E16YsRBnTxwbJnDmeMwYrWTVCHoTvYM6Tw/9IiYeD5HX0FvJe7FjKkBTBH4pNvLABA/r+itkFjsz/QgTXz7eJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ronni\\estudo\\c#\\manager\\src\\3 - Manager.Services\\Manager.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ronni\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Ronni\\.nuget\\packages\\escnet\\1.0.1\\escnet.1.0.1.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ronni\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
