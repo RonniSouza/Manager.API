@@ -23,7 +23,7 @@
 * JWT
 > Autentica requisições da API.
 
-*User-secrets
+* User-secrets
 > Para proteger dados sensíves da aplicação
 
 
